@@ -1,0 +1,64 @@
+body {
+background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a {
+  color: black;
+}
+
+#nav-bar {
+  display: flex;
+  padding: 20px 20px 20px 20px;
+  justify-content: space-between;
+  top: 0;
+  z-index: 99;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  margin-top: -20px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link > h5 {
+  padding-right: 30px;
+}
+
+.nav-link > h5 > a {
+  color: black;
+}
+
+.video {
+  padding-top: 130px;
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+}
+
+.content {
+  padding-top: 50px;
+}
+
+input {
+  height: 40px;
+  width: 20rem;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  #descriptions {
+    display: none;
+  }
+}
